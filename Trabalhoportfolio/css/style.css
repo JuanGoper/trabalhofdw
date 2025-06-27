@@ -1,0 +1,112 @@
+/* limpando formatações*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*formatações gerais da página*/
+
+body{
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #C4c4c4;
+}
+
+/*formatação de títulos*/
+h1{
+    color: #d66910;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px black;
+}
+
+h2{
+    color: #d66910;
+    text-shadow: 1px 1px 1px #818080;
+    border-bottom: 1px solid #435E70;
+}
+
+h3{
+    color: #565656;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+/*formatação de cabeçalho e botões de página*/
+#header{
+    background-color: #435E70;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid #d66910;
+}
+
+#logo, #menu{
+    padding: 10px;
+}
+
+#header a:link, #header a:visited{
+    color: #FFFFFF;
+    padding: 8px 12px;
+}
+
+#header a:hover{
+    color: #435E70;
+    background: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/*formatação do conteúdo das páginas*/
+#conteudo{
+    margin: auto;
+    padding: 15px;
+    height: 100vh;
+    background: linear-gradient(#2E7FB3, black);
+}
+
+#posts{
+    width: 70%;
+    float: center;
+}
+
+#botao{
+    width: 180px;
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    text-align: justify;
+    border-radius: 5px;
+    position: absolute;
+    left: 15%;
+    right: 15%;
+}
+
+.lista{
+    margin-left: 20px;
+    text-align: justify;
+    list-style-type: square;
+}
+
+.areatexto{
+    vertical-align: top;
+}
+
+#formulario{
+    text-align: center;
+}
+
+/*formatação dos links*/
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:link, a:visited{
+    color: #d66910;
+}
+
+a:hover{
+    text-decoration: underline;
+}
